@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Mobileapp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/txtNetworkName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtMacAddress"
+        android:layout_marginStart="10dp"
+        android:text="12:12:12:!2!:212:12:12"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:background="#000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_marginTop="5dp"
+        android:id="@+id/btnAction"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_gravity="end"
+        android:text="Connect"
+        android:visibility="gone"
+        android:layout_marginEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
